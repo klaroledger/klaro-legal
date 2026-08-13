@@ -6,7 +6,7 @@
     <title>Privacy Policy — Klaro Ledger</title>
     <meta
       name="description"
-      content="Privacy Policy for Klaro Ledger. Offline-first; your financial data stays on your device."
+      content="Privacy Policy for Klaro Ledger. Offline-first; your financial data stays encrypted on your device."
     />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -19,7 +19,7 @@
     </div>
     <main class="wrap">
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: July 6, 2026</p>
+      <p class="updated">Last updated: August 5, 2026</p>
       <nav class="nav">
         <a href="index.html">Legal home</a>
         <a href="terms.html">Terms of Service</a>
@@ -28,24 +28,24 @@
       <p class="lead">
         Klaro Pte. Ltd. ("we", "us") publishes Klaro Ledger ("the app"). Klaro
         Ledger is built to keep your financial life private: it works
-        offline-first, and your personal finances stay encrypted on your device.
-        A few optional features — Google Drive backup, and Shared Spaces for
-        tracking with a partner or household — connect to services we or others
-        run; where they do, your financial data is end-to-end encrypted, so we
-        still can't read it. This policy explains what is stored, the network
-        services the app uses, and your choices. We aim to meet Singapore's
-        PDPA, the EU/UK GDPR, and California's CCPA.
+        offline-first, and your personal finances stay encrypted on your
+        device. A few optional features — Google Drive backup, and Shared
+        Spaces for tracking with a partner or household — connect to services
+        we or others run; where they do, your financial data is
+        end-to-end encrypted, so we still can't read it. This policy explains
+        what is stored, the network services the app uses, and your choices. We
+        aim to meet Singapore's PDPA, the EU/UK GDPR, and California's CCPA.
       </p>
 
       <h2>Your personal data stays on your device</h2>
       <p>
         Everything you enter in your Personal ledger — transactions, income,
-        expenses, savings, goals, budgets, recurring rules, cards &amp; accounts
-        (including any balances you set), categories, notes, and your settings —
-        is stored in an encrypted database on your device only. You can use Klaro
-        with no account at all. We have no server that receives or stores your
-        Personal ledger, and we cannot see it. (The optional Shared Spaces and
-        Google Drive backup features are covered below.)
+        expenses, savings, goals, budgets, recurring rules, cards &amp;
+        accounts (including any balances you set), categories, notes, and your
+        settings — is stored in an encrypted database on your device only. You
+        can use Klaro with no account at all. We have no server that receives
+        or stores your Personal ledger, and we cannot see it. (The optional
+        Shared Spaces and Google Drive backup features are covered below.)
       </p>
 
       <h2>No tracking or analytics</h2>
@@ -59,7 +59,7 @@
       <p>
         To convert between currencies and value any investments you add, the app
         fetches reference data from a few third-party services: currency exchange
-        rates from Frankfurter (api.frankfurter.app, based on European Central
+        rates from Frankfurter (api.frankfurter.dev, based on European Central
         Bank data); live cryptocurrency prices from CoinGecko; and live stock and
         ETF prices from Yahoo Finance. When it does, only what the lookup needs is
         sent — a currency code and date, or the ticker/coin symbols you track (and
@@ -100,46 +100,40 @@
         Shared Spaces let you track a joint ledger — shared expenses, budgets,
         goals, and who-owes-whom settle-up — with a partner or household. They
         are entirely optional: if you never create or join one, nothing here
-        applies and your data never leaves your device.
-      </p>
-      <p>
-        When you create or join a Shared Space, the data in <em>that</em> space
-        syncs between its members through a relay we operate (hosted on
-        Cloudflare) using end-to-end encryption. Every change is encrypted on
-        your device before it is sent, with a key shared only between the space's
-        members — delivered inside the invite you share directly with each other,
-        never to us — so the relay stores only encrypted content we cannot read.
-        Your Personal ledger is never synced.
-      </p>
-      <p>
+        applies and your data never leaves your device. When you create or join
+        a Shared Space, the data in THAT space syncs between its members through
+        a relay we operate (hosted on Cloudflare) using end-to-end encryption.
+        Every change is encrypted on your device before it is sent, with a key
+        shared only between the space's members — delivered inside the invite you
+        share directly with each other, never to us — so the relay stores only
+        encrypted content we cannot read. Your Personal ledger is never synced.
         To run a space, the relay does handle a little information it can see
         (not your financial content): a Google account identifier and email for
         each member (to sign you in and manage membership), the space's name
-        (which is <em>not</em> encrypted, so members can recognise it),
-        membership and roles, timestamps, and whether a member has an active
-        subscription. Combined net worth shares only each member's net-worth
-        total (a single number, still end-to-end encrypted and attributed to
-        them) — the accounts and balances behind it never leave your device.
-      </p>
-      <p>
-        You can leave a space, or delete one you created, from its Manage screen:
-        leaving removes your membership, and deleting removes the space's
-        encrypted content from the relay. Because we cannot read a space's
-        contents, if every member leaves or the shared key is lost, its data
-        cannot be recovered by us.
+        (which is not encrypted, so members can recognise it), membership and
+        roles, timestamps, and whether a member has an active subscription.
+        Combined net worth shares only each member's net-worth total (a single
+        number, still end-to-end encrypted and attributed to them) — the accounts
+        and balances behind it never leave your device. You can leave a space, or
+        delete one you created, from its Manage screen; leaving removes your
+        membership, and deleting removes the space's encrypted content from the
+        relay. Because we cannot read a space's contents, if every member leaves
+        or the shared key is lost, its data cannot be recovered by us.
       </p>
 
       <h2>Subscriptions &amp; billing</h2>
       <p>
-        Klaro offers optional paid subscriptions (for example, to create Shared
-        Spaces); core personal tracking stays available without paying. Purchases
-        are made through the Google Play Store, which processes your payment — we
-        never see or store your card or bank details. We use RevenueCat to manage
-        subscription status on our behalf; it receives a pseudonymous identifier
-        tied to your Google account and whether your subscription is active, so
-        the app (and a Shared Space) knows what you're entitled to. Google Play's
-        and RevenueCat's handling of this information is subject to their own
-        privacy policies. The app contains no ads.
+        Klaro Ledger is a paid subscription app: continued use requires an active
+        subscription (any free trial and the price are shown before you buy).
+        Purchases are made through the Google Play Store, which processes your
+        payment — we never see or store your card or bank details. We use
+        RevenueCat to manage subscription status on our behalf; it receives a
+        pseudonymous identifier linked to your Google account and whether your
+        subscription is active, so the app (and any Shared Space) knows what
+        you're entitled to. Creating a Shared Space requires the space's owner to
+        have an active subscription; people the owner invites can take part in
+        that space. Google Play's and RevenueCat's handling of this information is
+        subject to their own privacy policies. The app contains no ads.
       </p>
 
       <h2>Permissions we use</h2>
@@ -186,30 +180,17 @@
       <h2>Services we rely on</h2>
       <p>
         Where the optional features above use a network, these providers are
-        involved, each receiving only the limited information noted:
+        involved, each receiving only the limited information noted: Google —
+        Sign-In (your Google account identifier + email) for Drive backup and
+        Shared Spaces, and Google Drive (an encrypted backup in your own private
+        app-data folder). Cloudflare — hosts our Shared Spaces relay and its
+        database, storing end-to-end-encrypted space content plus the membership
+        metadata described above. Google Play and RevenueCat — process and
+        manage subscription billing status. Frankfurter, CoinGecko, and Yahoo
+        Finance — supply reference exchange rates and live prices, using only a
+        currency code/date or the symbols you track. We use no advertising,
+        analytics, or tracking SDKs.
       </p>
-      <ul>
-        <li>
-          <strong>Google</strong> — Sign-In (your Google account identifier +
-          email) for Drive backup and Shared Spaces, and Google Drive (an
-          encrypted backup in your own private app-data folder).
-        </li>
-        <li>
-          <strong>Cloudflare</strong> — hosts our Shared Spaces relay and its
-          database, storing end-to-end-encrypted space content plus the
-          membership metadata described above.
-        </li>
-        <li>
-          <strong>Google Play &amp; RevenueCat</strong> — process and manage
-          subscription billing status.
-        </li>
-        <li>
-          <strong>Frankfurter, CoinGecko, Yahoo Finance</strong> — supply
-          reference exchange rates and live prices, using only a currency
-          code/date or the symbols you track.
-        </li>
-      </ul>
-      <p>We use no advertising, analytics, or tracking SDKs.</p>
 
       <h2>Your control and rights</h2>
       <p>
@@ -220,8 +201,8 @@
         relay, and disconnect your Google account at any time. Under laws such as
         the PDPA and GDPR, you can also ask us to access, correct, or delete the
         limited personal data our relay holds about you (your Google identifier
-        and space membership) — email us and we will action it, usually within 30
-        days.
+        and space membership) — email us and we will action it, usually within
+        30 days.
       </p>
 
       <h2>Children</h2>
