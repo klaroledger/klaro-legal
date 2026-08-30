@@ -119,3 +119,57 @@ footer {
   color: var(--muted);
   font-size: 13px;
 }
+
+/* --- Landing page --- */
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--brand-soft);
+  margin: 0 0 6px;
+}
+.soon {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 999px;
+  padding: 6px 14px;
+  margin: 4px 0 8px;
+}
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 12px 0 8px;
+}
+@media (max-width: 560px) {
+  .features { grid-template-columns: 1fr; }
+}
+.feature {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 18px;
+}
+.feature .ft { font-weight: 600; font-size: 16px; }
+.feature .fd { color: var(--muted); font-size: 14px; margin-top: 3px; }
+.points { list-style: none; padding: 0; margin: 8px 0 0; }
+.points li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 10px;
+}
+.points li::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand-soft);
+}
+.legal-heading { margin-top: 42px; }
